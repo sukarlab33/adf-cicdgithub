@@ -1,0 +1,36 @@
+{
+	"name": "dts_cobaan_csv",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "lnk_adls_cobaan",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "DataCobaan.csv",
+				"fileSystem": "bronze"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "gender",
+				"type": "String"
+			},
+			{
+				"name": " name",
+				"type": "String"
+			},
+			{
+				"name": " age",
+				"type": "String"
+			}
+		]
+	}
+}
