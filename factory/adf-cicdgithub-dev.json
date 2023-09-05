@@ -1,0 +1,9 @@
+{
+	"name": "adf-cicdgithub-dev",
+	"location": "australiaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "50e10421-bbd0-4ff5-904f-d2d4f46d8022",
+		"tenantId": "9fc2f220-dc87-434a-8532-013533b24df7"
+	}
+}
