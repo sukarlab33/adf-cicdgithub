@@ -5,6 +5,12 @@
 		"factoryName": {
 			"value": "adf-cicdgithub-dev"
 		},
+		"lnk_adls_cobaan_accountKey": {
+			"value": ""
+		},
+		"lnk_adls_cobaan_properties_typeProperties_url": {
+			"value": "https://stocicdgithubdev.dfs.core.windows.net/"
+		},
 		"containerUri": {
 			"value": ""
 		},
